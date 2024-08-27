@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+@font-face {
+    font-family: Klavika-bold;
+    src: url("FONTS/klavika-bold.otf");
+    font-weight: bolder;
+}
+body{
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+   
+}
+
+.child1 .c1{
+    color: rgb(68, 68, 213);
+    font-size: 75px;
+    font-family:Klavika-bold ;
+}
+
+.child1 .c2{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.child1 .c3{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.child2 .i1{
+    font-size: 16px;
+    height: 45px;
+    width: 320px;
+    border: 1px solid rgb(174, 172, 172);
+    border-radius: 5px;
+    padding-left: 8px;
+}
+.child2 .i2{
+    font-size: 16px;
+    height: 45px;
+    width: 320px;
+    border: 1px solid rgb(174, 172, 172);
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+.child2 .c1a{
+    border: 1px solid rgb(68, 68, 213);
+    background-color:  rgb(68, 68, 213);
+    height: 45px;
+    width: 330px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+
+.child2 .c2{
+    font-size: 16px;
+    color: rgb(39, 39, 218) ;
+    margin-top: 10px;
+    
+}
+
+.child2 .c2a{
+    margin-top: 10px;
+   text-decoration: underline rgb(247, 243, 243);
+   height: 1px;
+  width: 100%;
+  background-color: black;
+    
+}
+
+.child2 .c3{
+    height: 40px;
+    width: 240px;
+    border: 1px solid  rgb(21, 168, 21);
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(21, 168, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+   
+}
+
+.child2b span{
+    font-weight: bold;
+
+}
+
+.child2b{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.child2a{
+    background-color: white;
+    height: 300px;
+    width:350px;
+    padding: 10px;
+    box-shadow: 1.5px 1.5px 5px rgb(180, 178, 178);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content:first center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.sectiona{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
