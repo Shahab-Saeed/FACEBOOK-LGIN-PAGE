@@ -39,7 +39,11 @@ body{
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
+
 }
+
+/* FOR CHILD 2 */
+
 .child2 .i1{
     font-size: 16px;
     height: 45px;
@@ -126,13 +130,14 @@ body{
     height: 300px;
     width:350px;
     padding: 10px;
+    padding-top: 30px;
     box-shadow: 1.5px 1.5px 5px rgb(180, 178, 178);
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content:first center;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
 .sectiona{
@@ -140,3 +145,41 @@ body{
     flex-direction: row;
     gap: 90px;
 }
+
+/* MEDIA QUERIES */
+
+@media  screen and (max-width:1024px){
+    body .sectiona{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+            
+    }
+    body{
+        padding: 0px 1px;
+    }
+
+    .sectiona .child1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .sectiona .child1 .c2, .c3{
+        align-content: center;
+        font-size: 18px;
+    }
+    .sectiona .child1 .c3{
+        align-content: center;
+        font-size: 18px;
+    }
+
+    .sectiona .child2a{
+        /* margin:  0px 5px; */
+    }
+}
+
